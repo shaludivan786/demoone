@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="register.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Registration Form</h1>
+      <form action="" method="">
+        <label for="name">Enter Name </label>
+        <input type="text" name="name" placeholder="enter name" required />
+        <br />
+        <label for="email">Enter Email </label>
+        <input type="email" name="email" placeholder="enter email" required />
+        <br />
+        <label for="pwd">Enter Password </label>
+        <input
+          type="password"
+          name="pwd"
+          placeholder="enter password"
+          required
+        />
+        Gender:<label for="gender-choice">Male</label>
+        <input type="radio" name="gender-choice" value="choice1" />
+        <label for="gender-choice">Female</label>
+        <input type="radio" name="gender-choice" value="choice1" />
+        <div>
+        <label for="city">Select City</label>
+        <select name="city">
+          <option value="slect city" selected disabled>city</option>
+          <option value="Jaipur">Jaipur</option>
+          <option value="Kota">Kota</option>
+          <option value="Ajmer">Ajmer</option>
+          <option value="Udaipur">Udaipur</option>
+        </select>
+    </div>
+    <div>
+        <label for="agree">Check Button to agree terms and conditions</label>
+    <input type="checkbox" name="agree" required>
+    </div>
+    <button type="submit">Submit</button>
+      </form>   
+    </div>
+  </body>
+</html> 

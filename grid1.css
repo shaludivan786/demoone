@@ -1,0 +1,13 @@
+.g_container{
+
+    display: grid;
+   
+    background-color: blueviolet;
+    grid-template:150px 60px / 1fr 3fr;
+    margin: 5px;
+}
+.g_item{
+    border: 3px solid yellow;
+    text-align: center;
+    grid-row: span 2;
+    }

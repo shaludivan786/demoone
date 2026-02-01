@@ -1,0 +1,10 @@
+.post{
+    width: 500px;
+    border: 15px solid gray;
+    margin: auto;
+    scrollbar-highlight-color: gray;
+}
+img{
+    margin: auto;
+    align-content: center;
+}

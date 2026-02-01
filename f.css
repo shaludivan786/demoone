@@ -1,0 +1,18 @@
+.container{
+    border: solid 2px pink;
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+  
+
+}
+.item{
+    border: solid 2px black;
+    margin: 10px;
+    padding: 10px;
+} 
+.bot{
+    border: solid 1px greenyellow;
+    display: flex;
+    
+}
