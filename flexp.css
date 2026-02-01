@@ -1,0 +1,12 @@
+.one{
+    flex:0 0   75px ;
+    background-color: blue;
+}
+.two{
+    flex: 0 0 75px;
+    background-color: blueviolet;
+}
+.container{
+    border: solid 1px black;
+    display: flex;
+}

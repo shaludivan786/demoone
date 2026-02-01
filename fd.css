@@ -1,0 +1,26 @@
+.container{
+    
+    border: solid 5px green;
+    display: flex;
+    
+
+}
+.item1{
+    border: 2px solid black;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+   flex-grow: 0;
+    margin: 10px;
+    flex-shrink: 2;
+    padding: 10PX;
+    }
+    .item{
+    border: 2px solid black;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+    flex-basis: 200px;
+    flex-shrink: 1;
+  
+    }
